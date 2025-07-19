@@ -20,5 +20,7 @@ public class User {
     @GeneratedValue
     private int id;
     private String name;
+    private String email;
+    private String password;
     private Role role;
 }
